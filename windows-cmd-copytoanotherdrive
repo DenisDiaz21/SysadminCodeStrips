@@ -1,0 +1,10 @@
+robocopy "\\source\share" "C:\destination" /E /Z /COPYALL
+
+Most used:
+/E - copy subdirectories
+/Z - restartable mode (resume from same place if interrupted)
+/COPYALL - Copies all file information
+/MT:<n> - Multi-threading with n threads, default is 8
+
+Reference:
+https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/robocopy
